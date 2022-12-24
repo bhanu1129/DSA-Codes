@@ -27,9 +27,10 @@ int main(){
     int i=100;
     int *p2 = &i;
     cout<<p2<<endl;
-    p2 = p2+1; /*p2 will now point to the address of the next integer ,i.e 101
+    p2 = p2+1; /*address of p2 will increase by 4 
                  address + 4 (because integer is 4 bytes)*/
-    cout<<p2<<endl;
+    cout<<p2<<endl; //next address
+    cout<<*p2<<endl; //value at the next address
 
     return 0;
 }       
