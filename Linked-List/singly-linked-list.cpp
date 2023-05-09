@@ -66,12 +66,12 @@ void deleteNode(Node* &head, int position, Node* &tail){
     if(position == 1){
         Node* temp = head;
         head = head -> next;
-        temp->next = NULL;
+        temp->next = NULL; 
         delete temp;
     }else{
         Node* curr = head;
         Node* prev = NULL;
-        
+         
         int count=1;
         while(count<position){
             prev = curr;

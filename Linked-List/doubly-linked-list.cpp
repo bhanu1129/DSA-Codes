@@ -30,7 +30,7 @@ void insertAtHead(Node* &head, Node* &tail, int d){
         tail = temp;
     }else{
         Node* temp = new Node(d);
-        temp->next = head;
+        temp->next = head; 
         head->prev = temp;
         head = temp;
     }

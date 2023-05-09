@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-
+    
     string str = "bhanu";
     stack<char> s;
     for(int i=0; i<str.length(); i++){
