@@ -28,3 +28,6 @@ int main(){
     }
 
 }
+
+// Time complexity - O(n2) - worst
+// Best - O(n)
